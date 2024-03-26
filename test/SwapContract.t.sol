@@ -24,7 +24,7 @@ contract SwapContractTest is Test {
         dai =  IERC20(0xFF34B3d4Aee8ddCd6F9AFFFB6Fe49bD371b8a357);
         link =  IERC20(0xf8Fb3713D459D7C1018BD0A49D19b4C44290EBE5);
         eth =  IERC20(0xb16F35c0Ae2912430DAc15764477E179D9B9EbEa);
-        swapContract = ISwapContract(0x2106a21bc6CF3aA7ea04ea810AfB2041342BcB48);
+        swapContract = ISwapContract(0x1aDd078B197D4a1Fe9B883aBAB44770f21315A3D);
     }
 
     function testSwapEthDai() public {
